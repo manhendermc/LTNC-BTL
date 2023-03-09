@@ -1,0 +1,213 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_paragraph"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"vpf",
+				"View Package File"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 131.199996948,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/manhl/Documents/A-LTNC/p4/txt.cpp",
+		"/C/Users/manhl/Documents/A-LTNC/BAI1/B16.cpp",
+		"/C/Users/manhl/Documents/A-LTNC/BAI1/FibonacciWord.cpp",
+		"/C/Users/manhl/Documents/File C++/1735a.cpp",
+		"/C/Users/manhl/Documents/File C++/test.cpp",
+		"/C/Users/manhl/Documents/A-LTNC/BAI1/distance.cpp",
+		"/C/Users/manhl/Documents/File C++/x.cpp",
+		"/C/Users/manhl/Documents/File C++/1783a.cpp",
+		"/C/Users/manhl/Documents/x.out.txt",
+		"/C/Users/manhl/Documents/File C++/output.txt",
+		"/C/Users/manhl/Documents/File C++/x.out",
+		"/C/Users/manhl/Documents/File C++/input.txt",
+		"/C/Users/manhl/Documents/File C++/x.inp",
+		"/C/Users/manhl/Documents/File C++/B2.cpp",
+		"/C/Users/manhl/Documents/File C++/B1.cpp",
+		"/C/Users/manhl/Documents/x.inp.txt",
+		"/C/Users/manhl/AppData/Roaming/Sublime Text/Packages/User/C++Terminus.sublime-build",
+		"/C/Users/manhl/AppData/Roaming/Sublime Text/Packages/User/C++14.sublime-build",
+		"/C/Users/manhl/Documents/File C++/a.out",
+		"/C/Users/manhl/Documents/File C++/1735b.cpp",
+		"/C/Users/manhl/OneDrive/Tài liệu/File C++/x.inp",
+		"/C/Users/manhl/OneDrive/Tài liệu/File C++/x.out",
+		"/C/Users/manhl/OneDrive/Tài liệu/File C++/1735a.cpp",
+		"/C/Users/manhl/OneDrive/Tài liệu/File C++/test.cpp",
+		"/C/Users/manhl/OneDrive/Tài liệu/File C++/1735A.cpp",
+		"/C/Users/manhl/OneDrive/Tài liệu/File C++/1735A",
+		"/C/Users/manhl/OneDrive/Máy tính/test2.cpp",
+		"/C/Users/manhl/OneDrive/Máy tính/test1.cpp",
+		"/C/Users/manhl/OneDrive/Máy tính/test.cpp",
+		"/C/Users/manhl/AppData/Roaming/Sublime Text/Packages/C++/C++ Single File.sublime-build",
+		"/C/Users/manhl/AppData/Roaming/Sublime Text/Packages/User/C++14"
+	],
+	"find":
+	{
+		"height": 34.4
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.4
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/C++14.sublime-build",
+	"project": "SDL.sublime-project",
+	"replace":
+	{
+		"height": 65.6
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
