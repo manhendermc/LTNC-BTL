@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1678335073 source:c:\users\manhl\documents\a-ltnc\ls7_texture&render\txt.cpp
+	<stdio.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
