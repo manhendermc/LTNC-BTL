@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1679335858 source:c:\users\manhl\documents\a-ltnc\movetest\txt.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
+	<math.h>
+
