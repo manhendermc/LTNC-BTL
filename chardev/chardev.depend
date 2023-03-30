@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1680161650 source:c:\users\manhl\documents\a-ltnc\chardev\txt.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
+	<math.h>
+	<queue>
+	<SDL_ttf.h>
+	<iostream>
+	<string>
+	<sstream>
+	"init.h"
+	"LTextureclass.h"
+	"LTextureclassfunction.h"
+	"bulletclass.h"
+	"bulletclassfunction.h"
+	"Charclass.h"
+	"Charclassfunction.h"
+	"LTimerclass.h"
+	"loadmedia.h"
+
+1679592085 c:\users\manhl\documents\a-ltnc\chardev\init.h
+
+1679592303 c:\users\manhl\documents\a-ltnc\chardev\ltextureclass.h
+
+1679848964 c:\users\manhl\documents\a-ltnc\chardev\ltextureclassfunction.h
+
+1680102724 c:\users\manhl\documents\a-ltnc\chardev\bulletclass.h
+
+1679593466 c:\users\manhl\documents\a-ltnc\chardev\bulletclassfunction.h
+
+1680099516 c:\users\manhl\documents\a-ltnc\chardev\charclass.h
+
+1680099516 c:\users\manhl\documents\a-ltnc\chardev\charclassfunction.h
+
+1679585296 c:\users\manhl\documents\a-ltnc\chardev\ltimerclass.h
+
+1680099813 c:\users\manhl\documents\a-ltnc\chardev\loadmedia.h
+
