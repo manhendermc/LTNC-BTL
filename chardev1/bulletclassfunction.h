@@ -19,6 +19,13 @@ void bulletcontrol::render( bulletstate bullet )
     mbullet.renderBULLET(bullet.x - bullet_WIDTH, bullet.y - bullet_HEIGHT/2 , bullet.angle, turn);
 }
 
+bool bulletcontrol::check_collision(bulletstate bt)
+{
+    tilemap_POS nowpos = getlocate( bt.x, bt.y );
+
+    return tile[nowpos.x][nowpos.y];
+}
+
 void bulletcontrol::move()
 {
     while( !bullet_list.empty() && bullet_list.front().state == bstate)
@@ -32,11 +39,9 @@ void bulletcontrol::move()
         bt.y = bt.sty + sin(bt.angle / 180 * pi) * double(bt.dis);
         bt.state = bstate^1;
 
-        if( bt.x - bullet_WIDTH <= SCREEN_WIDTH && bt.x >= 0 && bt.y - bullet_HEIGHT <= SCREEN_HEIGHT && bt.y >= 0)
+        render(bt);
+        if( !check_collision(bt) )
         {
-            //cout << cos(bt.angle / 180 * 3.1415) << " " << sin(bt.angle / 180 * 3.1415) << '\n';
-            render(bt);
-            //cout << -1 << '\n';
             add(bt);
         }
     }

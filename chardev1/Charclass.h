@@ -6,6 +6,8 @@ class Character
     public:
         //The dimensions of the dot
 		static const int CHAR_HITBOX_DIAMETER = 54;
+		static const int CHAR_HITBOX_RADIUS = 27;
+		static const int CHAR_HITBOX_DIS = 15;
 
 		//Maximum axis velocity of the dot
 		static const int CHAR_VEL = 4;
@@ -21,6 +23,8 @@ class Character
         void charcountdown();
 
         void gettype( bool tp );
+
+        bool check_collision();
 
     private:
         //0 is enermy
@@ -40,6 +44,8 @@ class Character
         bulletstate bullet;
 
         bool shooting;
+
+        tilemap_POS nowpos;
 };
 
 #endif // Charclass_H_

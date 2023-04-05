@@ -38,6 +38,7 @@
 		<Unit filename="LTimerclass.h" />
 		<Unit filename="bulletclass.h" />
 		<Unit filename="bulletclassfunction.h" />
+		<Unit filename="collision.h" />
 		<Unit filename="init.h" />
 		<Unit filename="loadmedia.h" />
 		<Unit filename="txt.cpp" />

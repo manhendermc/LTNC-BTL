@@ -4,7 +4,7 @@
 class bulletcontrol
 {
     public:
-        static const int bullet_VEL = 60;
+        static const int bullet_VEL = 50;
 
         bulletcontrol();
 
@@ -13,6 +13,8 @@ class bulletcontrol
         void render( bulletstate bullet );
 
         void move();
+
+        bool check_collision( bulletstate bt );
 
         void deletelist();
 

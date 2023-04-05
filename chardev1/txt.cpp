@@ -9,6 +9,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <algorithm>
 
 using namespace std;
 
@@ -23,6 +24,11 @@ const int SCREEN_FPS = 60;
 const int FIRE_RATE = 7;
 const int SCREEN_TICK_PER_FRAME = 1000 / SCREEN_FPS;
 const double pi = 3.141592653589793238462643383279;
+const int tilemap_WIDTH = 40;
+const int tilemap_HEIGHT = 20;
+const int square_SIZE = SCREEN_HEIGHT / tilemap_HEIGHT;
+
+bool tile[44][44];
 
 //INIT WINDOWN:
 //The window we'll be rendering to
@@ -46,6 +52,14 @@ struct bulletstate
     bool state = 0;
     bool shooter = 0;
 };
+
+struct tilemap_POS
+{
+    int x = 0;
+    int y = 0;
+};
+
+#include "collision.h"
 
 #include "LTextureclass.h"//class LTexture
 #include "LTextureclassfunction.h"
@@ -100,6 +114,8 @@ void close()
 
 int main( int argc, char* args[] )
 {
+    addobject();
+
     if( !init() )
     {
         printf( "Fail to initialize!\n" );

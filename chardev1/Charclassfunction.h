@@ -5,7 +5,7 @@ Character::Character()
 {
     type = 0;
 
-    mPosX = 0; mPosY = 0;
+    mPosX = 50; mPosY = 620;
     mVelX = 0; mVelY = 0;
 
     degrees = 0;
@@ -55,6 +55,30 @@ void Character::acthandleEvent( SDL_Event &e )
     }
 }
 
+bool Character::check_collision()
+{
+    nowpos = getlocate( mPosX + 20, mPosY + 27);
+
+    if( tile[nowpos.x][nowpos.y] ) return 1;
+
+    int x1 = (nowpos.x - 1) * square_SIZE;
+    int y1 = (nowpos.y - 1) * square_SIZE;
+    int x2 = nowpos.x * square_SIZE;
+    int y2 = nowpos.y * square_SIZE;
+
+    bool ans = 0;
+    ans |= (tile[nowpos.x - 1][nowpos.y - 1] && CHAR_HITBOX_DIS > dis( x1, y1, mPosX + CHAR_HITBOX_RADIUS, mPosY + CHAR_HITBOX_RADIUS));
+    ans |= (tile[nowpos.x][nowpos.y - 1] && CHAR_HITBOX_DIS > dis( mPosX + CHAR_HITBOX_RADIUS, y1, mPosX + CHAR_HITBOX_RADIUS, mPosY + CHAR_HITBOX_RADIUS));
+    ans |= (tile[nowpos.x + 1][nowpos.y - 1] && CHAR_HITBOX_DIS > dis( x2, y1, mPosX + CHAR_HITBOX_RADIUS, mPosY + CHAR_HITBOX_RADIUS));
+    ans |= (tile[nowpos.x - 1][nowpos.y] && CHAR_HITBOX_DIS > dis( x1, mPosY + CHAR_HITBOX_RADIUS, mPosX + CHAR_HITBOX_RADIUS, mPosY + CHAR_HITBOX_RADIUS));
+    ans |= (tile[nowpos.x + 1][nowpos.y] && CHAR_HITBOX_DIS > dis( x2, mPosY + CHAR_HITBOX_RADIUS, mPosX + CHAR_HITBOX_RADIUS, mPosY + CHAR_HITBOX_RADIUS));
+    ans |= (tile[nowpos.x - 1][nowpos.y + 1] && CHAR_HITBOX_DIS > dis( x1, y2, mPosX + CHAR_HITBOX_RADIUS, mPosY + CHAR_HITBOX_RADIUS));
+    ans |= (tile[nowpos.x][nowpos.y + 1] && CHAR_HITBOX_DIS > dis( mPosX + CHAR_HITBOX_RADIUS, y2, mPosX + CHAR_HITBOX_RADIUS, mPosY + CHAR_HITBOX_RADIUS));
+    ans |= (tile[nowpos.x + 1][nowpos.y + 1] && CHAR_HITBOX_DIS > dis( x2, y2, mPosX + CHAR_HITBOX_RADIUS, mPosY + CHAR_HITBOX_RADIUS));
+
+    return ans;
+}
+
 void Character::charcountdown()
 {
     if( countdown > 0 ) countdown --;
@@ -65,7 +89,7 @@ void Character::charmove()
     mPosX += mVelX;
 
     //If the dot went too far to the left or right
-    if( ( mPosX < 0 ) || ( mPosX + CHAR_HITBOX_DIAMETER > SCREEN_WIDTH ) )
+    if( check_collision() )
     {
         //Move back
         mPosX -= mVelX;
@@ -75,7 +99,7 @@ void Character::charmove()
     mPosY += mVelY;
 
     //If the dot went too far up or down
-    if( ( mPosY < 0 ) || ( mPosY + CHAR_HITBOX_DIAMETER > SCREEN_HEIGHT ) )
+    if( check_collision() )
     {
         //Move back
         mPosY -= mVelY;
