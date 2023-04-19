@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1681796499 source:c:\users\manhl\documents\a-ltnc\enemydev\txt.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
+	<math.h>
+	<queue>
+	<SDL_ttf.h>
+	<iostream>
+	<string>
+	<sstream>
+	<algorithm>
+	<cstdlib>
+	<ctime>
+	<SDL_mixer.h>
+	"init.h"
+	"collision.h"
+	"LTextureclass.h"
+	"LTextureclassfunction.h"
+	"bulletclass.h"
+	"Charclass.h"
+	"Enemy.h"
+	"bulletclassfunction.h"
+	"Charclassfunction.h"
+	"Enemyclassfunction.h"
+	"set_position.h"
+	"checkvision.h"
+	"LTimerclass.h"
+	"loadmedia.h"
+
+1681792856 c:\users\manhl\documents\a-ltnc\enemydev\init.h
+
+1681372539 c:\users\manhl\documents\a-ltnc\enemydev\collision.h
+
+1681796499 c:\users\manhl\documents\a-ltnc\enemydev\ltextureclass.h
+
+1681797759 c:\users\manhl\documents\a-ltnc\enemydev\ltextureclassfunction.h
+
+1681483809 c:\users\manhl\documents\a-ltnc\enemydev\bulletclass.h
+
+1681661923 c:\users\manhl\documents\a-ltnc\enemydev\bulletclassfunction.h
+
+1681799736 c:\users\manhl\documents\a-ltnc\enemydev\charclass.h
+
+1681797879 c:\users\manhl\documents\a-ltnc\enemydev\charclassfunction.h
+
+1679585296 c:\users\manhl\documents\a-ltnc\enemydev\ltimerclass.h
+
+1681796674 c:\users\manhl\documents\a-ltnc\enemydev\loadmedia.h
+
+1681680958 c:\users\manhl\documents\a-ltnc\enemydev\enemy.h
+
+1681799628 c:\users\manhl\documents\a-ltnc\enemydev\enemyclassfunction.h
+
+1681674804 c:\users\manhl\documents\a-ltnc\enemydev\checkvision.h
+
+1681575125 c:\users\manhl\documents\a-ltnc\enemydev\set_position.h
+
