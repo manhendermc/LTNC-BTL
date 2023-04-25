@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1682441035 source:c:\users\manhl\documents\a-ltnc\icebox\txt.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
+	<math.h>
+	<queue>
+	<SDL_ttf.h>
+	<iostream>
+	<string>
+	<sstream>
+	<algorithm>
+	<cstdlib>
+	<ctime>
+	<SDL_mixer.h>
+	"init.h"
+	"collision.h"
+	"LTextureclass.h"
+	"LTextureclassfunction.h"
+	"bulletclass.h"
+	"Charclass.h"
+	"Enemy.h"
+	"Buttonclass.h"
+	"Buttonclassfunction.h"
+	"bulletclassfunction.h"
+	"Charclassfunction.h"
+	"Enemyclassfunction.h"
+	"set_position.h"
+	"reset.h"
+	"Button_init.h"
+	"checkvision.h"
+	"LTimerclass.h"
+	"loadmedia.h"
+
+1682404954 c:\users\manhl\documents\a-ltnc\icebox\init.h
+
+1682261742 c:\users\manhl\documents\a-ltnc\icebox\collision.h
+
+1682259748 c:\users\manhl\documents\a-ltnc\icebox\ltextureclass.h
+
+1682402401 c:\users\manhl\documents\a-ltnc\icebox\ltextureclassfunction.h
+
+1681483809 c:\users\manhl\documents\a-ltnc\icebox\bulletclass.h
+
+1682349351 c:\users\manhl\documents\a-ltnc\icebox\charclass.h
+
+1682403864 c:\users\manhl\documents\a-ltnc\icebox\enemy.h
+
+1682402401 c:\users\manhl\documents\a-ltnc\icebox\buttonclass.h
+
+1682402401 c:\users\manhl\documents\a-ltnc\icebox\buttonclassfunction.h
+
+1682338374 c:\users\manhl\documents\a-ltnc\icebox\bulletclassfunction.h
+
+1682437948 c:\users\manhl\documents\a-ltnc\icebox\charclassfunction.h
+
+1682349351 c:\users\manhl\documents\a-ltnc\icebox\enemyclassfunction.h
+
+1681575125 c:\users\manhl\documents\a-ltnc\icebox\set_position.h
+
+1682349351 c:\users\manhl\documents\a-ltnc\icebox\reset.h
+
+1682404242 c:\users\manhl\documents\a-ltnc\icebox\button_init.h
+
+1682154068 c:\users\manhl\documents\a-ltnc\icebox\checkvision.h
+
+1679585296 c:\users\manhl\documents\a-ltnc\icebox\ltimerclass.h
+
+1682441035 c:\users\manhl\documents\a-ltnc\icebox\loadmedia.h
+
