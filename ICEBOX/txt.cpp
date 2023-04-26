@@ -393,14 +393,14 @@ int main( int argc, char* args[] )
                         {
                             type = 5;
                             reset();
-                            SDL_Delay(30);
+                            SDL_Delay(70);
                             Mix_PlayChannel(-1, defeat_sound, 0);
                         }
                         else if(enemyalive == 0)
                         {
                             type = 6;
                             reset();
-                            SDL_Delay(30);
+                            SDL_Delay(70);
                             Mix_PlayChannel(-1, victory_sound, 0);
                         }
 
