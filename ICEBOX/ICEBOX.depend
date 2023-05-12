@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1682441638 source:c:\users\manhl\documents\a-ltnc\icebox\txt.cpp
+1682493323 source:c:\users\manhl\documents\a-ltnc\icebox\txt.cpp
 	<SDL.h>
 	<SDL_image.h>
 	<stdio.h>

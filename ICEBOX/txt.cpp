@@ -341,7 +341,6 @@ int main( int argc, char* args[] )
                         mainchar.charmove();
 
                         check_vision();
-                        //memset (charvision, 1, sizeof charvision);
 
                         for(int i = 0;i < TOTAL_ENEMY;i ++)
                         p[i].charmove();

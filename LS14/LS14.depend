@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1678525779 source:c:\users\manhl\documents\a-ltnc\ls14\txt.cpp
-	<SDL.h>
-	<SDL_image.h>
-	<stdio.h>
-	<string>
-	<windows.h>
-
